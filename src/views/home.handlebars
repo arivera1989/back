@@ -1,0 +1,14 @@
+<h1>Segunda entrega Backend</h1>
+<h2>Lista de Productos</h2>
+<ul>
+    {{#each products}}
+    <li>
+        <span>{{category}}</span>
+        <h2>{{title}}</h2>
+        <p>{{description}}</p>
+        <img src="{{thumbnails.[0]}}" alt="{{title}}" />
+        <p>Precio: ${{price}}</p>
+        <span>{{code}}</span>
+    </li>
+    {{/each}}
+</ul>

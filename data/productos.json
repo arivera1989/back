@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "title": "Camiseta Deportiva",
+    "description": "Camiseta deportiva de alta calidad, perfecta para entrenamientos.",
+    "code": "CAM-001",
+    "price": 25.99,
+    "status": true,
+    "stock": 100,
+    "category": "Ropa Deportiva",
+    "thumbnails": [
+      "https://sublimesport.com.ar/wp-content/uploads/2017/09/011-01.png",
+      "https://ae01.alicdn.com/kf/Sf952700f828e4f7c86a361023bfecc05r.jpg_960x960.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Zapatillas Running",
+    "description": "Zapatillas ligeras para corredores de alto rendimiento.",
+    "code": "ZAP-002",
+    "price": 89.99,
+    "status": true,
+    "stock": 50,
+    "category": "Calzado",
+    "thumbnails": [
+      "https://media2.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/z/a/zapatillas-running-nike-downshifter-12-negra-510010dd9293001-1.jpg",
+      "https://asics.vteximg.com.br/arquivos/ids/341704-700-700/1011B693-001_1.jpg?v=638606554287070000"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Mochila Escolar",
+    "description": "Mochila espaciosa con múltiples compartimentos.",
+    "code": "MOC-003",
+    "price": 35.5,
+    "status": true,
+    "stock": 120,
+    "category": "Accesorios",
+    "thumbnails": [
+      "https://lbchile.com/wp-content/uploads/2023/12/Mochila-escolar-juvenil-impermeable-mom-565-10.jpeg",
+      "https://http2.mlstatic.com/D_NQ_NP_639114-MLA73250062698_122023-O.webp"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Auriculares Bluetooth",
+    "description": "Auriculares inalámbricos con sonido de alta fidelidad.",
+    "code": "AUR-004",
+    "price": 59.99,
+    "status": true,
+    "stock": 80,
+    "category": "Tecnología",
+    "thumbnails": [
+      "https://playmania438.com.ar/wp-content/uploads/2024/07/D_NQ_NP_641897-MLU75436656710_042024-O.webp",
+      "https://www.shiftdigital.com.ar/images/Auriculares%20i7S%20tws%20Base%20Recargable%20Blanco%201.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Lentes de Sol",
+    "description": "Lentes de sol con protección UV y diseño moderno.",
+    "code": "LEN-005",
+    "price": 19.99,
+    "status": true,
+    "stock": 200,
+    "category": "Accesorios",
+    "thumbnails": [
+      "https://acdn.mitiendanube.com/stores/304/917/products/lienzo-producto-tn-2023-08-11t162021-2531-3090ebc5ba0b08d4e816917819845781-640-0.png",
+      "https://opticapaesani.com.ar/23093-large_default/anteojos-reef-surfari-espejado.webp"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Silla Ergonómica",
+    "description": "Silla de oficina ergonómica con soporte lumbar ajustable.",
+    "code": "SIL-006",
+    "price": 150,
+    "status": true,
+    "stock": 30,
+    "category": "Muebles",
+    "thumbnails": [
+      "https://http2.mlstatic.com/D_NQ_NP_868588-MLA71078912614_082023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_722126-MLU77716381612_072024-O.webp"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Smartwatch",
+    "description": "Reloj inteligente con monitor de frecuencia cardíaca.",
+    "code": "SMA-007",
+    "price": 120,
+    "status": true,
+    "stock": 60,
+    "category": "Tecnología",
+    "thumbnails": [
+      "https://http2.mlstatic.com/D_NQ_NP_684664-MLA44922050344_022021-O.webp",
+      "https://www.xienan.com.ar/sistema/fotos/productos/00008500_00005391_G_169366737464f3502e555ef.png"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Bicicleta de Montaña",
+    "description": "Bicicleta de montaña con suspensión doble.",
+    "code": "BIC-008",
+    "price": 399.99,
+    "status": true,
+    "stock": 15,
+    "category": "Deportes",
+    "thumbnails": [
+      "https://www.sumitate.com.ar/img/articulos/2020/10/bicicleta_montana_merida_big_nine_300_2021_imagen1.jpg",
+      "https://http2.mlstatic.com/D_NQ_NP_831308-MLA79438438271_092024-O.webp"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Botella Térmica",
+    "description": "Botella térmica que mantiene bebidas frías por 24 horas.",
+    "code": "BOT-009",
+    "price": 22,
+    "status": true,
+    "stock": 300,
+    "category": "Accesorios",
+    "thumbnails": [
+      "https://acdn.mitiendanube.com/stores/564/890/products/botella-termica-blanca1-f10fde2a07bd24bd2216652679959206-1024-1024.jpg",
+      "https://acdn.mitiendanube.com/stores/564/890/products/botella-termica-21-4e0fbca2e9d907492216652679708742-480-0.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Tablet 10 pulgadas",
+    "description": "Tablet de 10 pulgadas con pantalla HD y gran capacidad de almacenamiento.",
+    "code": "TAB-010",
+    "price": 220,
+    "status": true,
+    "stock": 40,
+    "category": "Tecnología",
+    "thumbnails": [
+      "https://http2.mlstatic.com/D_NQ_NP_974737-MLA44309126348_122020-O.webp",
+      "https://nextgames.com.ar/img/Public/1040/35051-producto-tablet-8-samsung-galaxy-tab-a9-4gb-64gb-gris-46901-1.jpeg"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Cafetera de Cápsulas",
+    "description": "Cafetera compatible con cápsulas para preparar café de forma rápida.",
+    "code": "CAF-011",
+    "price": 75.5,
+    "status": true,
+    "stock": 90,
+    "category": "Electrodomésticos",
+    "thumbnails": [
+      "https://www.bidcom.com.ar/publicacionesML/productos/CAFLIL04/1000x1000-CAFLIL04.jpg",
+      "https://dcdn.mitiendanube.com/stores/001/664/284/products/d_nq_np_706429-mla41875311491_051-3c114600926e2c352c16445067350139-640-0.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Mouse Inalámbrico",
+    "description": "Mouse inalámbrico con sensor óptico y diseño ergonómico.",
+    "code": "MOU-012",
+    "price": 18,
+    "status": true,
+    "stock": 150,
+    "category": "Tecnología",
+    "thumbnails": [
+      "https://http2.mlstatic.com/D_NQ_NP_903646-MLA50709038849_072022-O.webp",
+      "https://acdn.mitiendanube.com/stores/003/248/153/products/41-19d5335fe0b258ff0816940244922835-1024-1024.png"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Libro de Cocina",
+    "description": "Libro de recetas para preparar platos saludables.",
+    "code": "LIB-013",
+    "price": 12.99,
+    "status": true,
+    "stock": 70,
+    "category": "Libros",
+    "thumbnails": [
+      "https://planetadelibrosar0.cdnstatics.com/usuaris/libros/fotos/313/m_prensa/312210_cocina-comida-real_9788449336836_3d.png",
+      "https://eviatienda.com/wp-content/uploads/2021/07/Tapa-Cocina-para-celebrar1-scaled.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Set de Ollas",
+    "description": "Juego de ollas de acero inoxidable con tapas de vidrio.",
+    "code": "OLL-014",
+    "price": 85,
+    "status": true,
+    "stock": 25,
+    "category": "Cocina",
+    "thumbnails": [
+      "https://http2.mlstatic.com/D_NQ_NP_664124-MLA46586049723_072021-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_936474-MLA53377558829_012023-O.webp"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Almohada Ortopédica",
+    "description": "Almohada con espuma de memoria para un soporte adecuado del cuello.",
+    "code": "ALM-015",
+    "price": 35,
+    "status": true,
+    "stock": 110,
+    "category": "Hogar",
+    "thumbnails": [
+      "https://acdn.mitiendanube.com/stores/102/583/products/almohada-viscolastica-inteligente-cervical-pierre-cardin-cama-tienda-pepino-3-fw1-aa42536ce929c3ccdb16344211569143-1024-1024.png",
+      "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCO/118676438_01/w=800,h=800,fit=pad"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Set de Pinceles para Maquillaje",
+    "description": "Set de 10 pinceles profesionales para maquillaje.",
+    "code": "PIN-016",
+    "price": 29.99,
+    "status": true,
+    "stock": 75,
+    "category": "Belleza",
+    "thumbnails": [
+      "https://images.fravega.com/f500/f523ff12a303961b3f297875489d1790.jpg",
+      "https://acdn.mitiendanube.com/stores/983/071/products/cafe-105-1-11-c66fa354aea9d73a1816953213687591-640-0.jpg"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Plancha de Vapor",
+    "description": "Plancha de vapor para eliminar arrugas de forma rápida.",
+    "code": "PLA-017",
+    "price": 45,
+    "status": true,
+    "stock": 55,
+    "category": "Electrodomésticos",
+    "thumbnails": [
+      "https://tccommercear.vtexassets.com/arquivos/ids/157215/dst3011.jpg?v=638231451145270000",
+      "https://static.hendel.com/media/catalog/product/cache/0c3e9ac8430b5a3e77d1544ae1698a10/3/6/36850_0_1.jpg"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Lampara de Escritorio LED",
+    "description": "Lámpara con luz ajustable y diseño moderno.",
+    "code": "LAM-018",
+    "price": 28.99,
+    "status": true,
+    "stock": 95,
+    "category": "Hogar",
+    "thumbnails": [
+      "https://iluminacioneiffel.net.ar/online/1002/lampara-escritorio-led-neron-4w-flexible-con-regulador-intensidad-al-tacto.jpg",
+      "https://http2.mlstatic.com/D_NQ_NP_736952-MCO78963532230_092024-O.webp"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Kit de Herramientas",
+    "description": "Kit de 30 herramientas básicas para reparaciones en el hogar.",
+    "code": "HER-019",
+    "price": 65,
+    "status": true,
+    "stock": 45,
+    "category": "Hogar",
+    "thumbnails": [
+      "https://www.soscomputacion.com.ar/14348-thickbox_default/set-juego-kit-herramientas-17-piezas-con-maletin-completo-ys-d6018.jpg",
+      "https://http2.mlstatic.com/D_NQ_NP_717710-MLA52446695935_112022-O.webp"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Reloj de Pared Vintage",
+    "description": "Reloj de pared con estilo vintage y números grandes.",
+    "code": "REL-020",
+    "price": 40,
+    "status": true,
+    "stock": 20,
+    "category": "Decoración",
+    "thumbnails": [
+      "https://http2.mlstatic.com/D_NQ_NP_871348-MLA45643748947_042021-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_863500-MLA49159726946_022022-O.webp"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Chaqueta de Cuero",
+    "description": "Chaqueta de cuero auténtico, resistente y moderna.",
+    "code": "CHA-021",
+    "price": 120,
+    "status": true,
+    "stock": 35,
+    "category": "Ropa",
+    "thumbnails": [
+      "https://i.ebayimg.com/thumbs/images/g/RwoAAOSw1kVi9egG/s-l1200.jpg",
+      "https://m.media-amazon.com/images/I/6134KHzplvL._AC_SX522_.jpg"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Sombrero de Playa",
+    "description": "Sombrero de ala ancha, perfecto para protegerse del sol.",
+    "code": "SOM-022",
+    "price": 15,
+    "status": true,
+    "stock": 130,
+    "category": "Accesorios",
+    "thumbnails": [
+      "https://http2.mlstatic.com/D_NQ_NP_848231-MLA43692439107_102020-O.webp",
+      "https://i5.walmartimages.com.mx/mg/gm/3pp/asr/37cb78cd-7b50-4af9-866f-945fb0a0e7c4.f82448c2982721b0e25e5d54152e4be3.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Juego de Cucharas Medidoras",
+    "description": "Juego de cucharas de acero inoxidable para medir ingredientes.",
+    "code": "CUC-023",
+    "price": 12.5,
+    "status": true,
+    "stock": 85,
+    "category": "Cocina",
+    "thumbnails": [
+      "https://acdn.mitiendanube.com/stores/102/583/products/lacor-set-kit-cucharas-medidoras-cazos-medidor-tienda-pepino-11-4ae2bb4dbc10e91e7b15842062084729-1024-1024.jpg",
+      "https://http2.mlstatic.com/D_NQ_NP_713161-MLA78523747729_082024-O.webp"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Tijeras de Jardinería",
+    "description": "Tijeras afiladas para podar plantas y arbustos.",
+    "code": "TIJ-024",
+    "price": 22.99,
+    "status": true,
+    "stock": 50,
+    "category": "Jardinería",
+    "thumbnails": [
+      "https://http2.mlstatic.com/D_NQ_NP_862056-MLU78309692905_082024-O.webp",
+      "https://torotrac.com/cdn/shop/products/PS00001122-2-TijeraPoda-49cm_700x700.jpg?v=1672749314"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Barra de Sonido",
+    "description": "Barra de sonido para mejorar la experiencia de audio en casa.",
+    "code": "BAR-025",
+    "price": 199.99,
+    "status": true,
+    "stock": 25,
+    "category": "Tecnología",
+    "thumbnails": [
+      "https://http2.mlstatic.com/D_NQ_NP_834379-MLU72389420041_102023-O.webp",
+      "https://101db.com.ar/12542-Productos/barra-de-sonido-tv-soundbar-novik-infinity-8-bluetooth-usb-con-subwoofer-y-c-remoto.jpg"
+    ]
+  }
+]
