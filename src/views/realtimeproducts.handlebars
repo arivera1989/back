@@ -1,0 +1,27 @@
+ <h1 class="title-pri">Productos en Tiempo Real</h1>
+    <div id="productListContainer"></div>
+
+    
+    <div class="forms-container">
+        <form id="productForm">
+            <h2 class="title-sec">Agregar Producto</h2>
+            <input type="text" id="productName" placeholder="Nombre del producto" required>
+            <input type="text" id="productDesc" placeholder="Descrpción del producto" required>
+            <input type="number" id="productPrice" placeholder="Precio del producto" required>
+            <input type="text" id="productCod" placeholder="Código del producto" required>
+            <input type="number" id="productStock" placeholder="Stock del producto" required>
+            <input type="text" id="productCat" placeholder="Categoría del producto" required>
+            <button type="button" id="btn-add">Agregar</button>
+        </form>
+
+        
+        <form id="deleteProductForm">
+            <h2 class="title-sec">Eliminar Producto</h2>
+            <input type="text" id="productId" placeholder="ID del producto" required>
+            <button type="button" id="btn-delete">Eliminar</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./socket.io/socket.io.js"></script>
+    <script src="./js/realtimeproducts.js"></script>

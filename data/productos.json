@@ -337,16 +337,12 @@
   },
   {
     "id": 25,
-    "title": "Barra de Sonido",
-    "description": "Barra de sonido para mejorar la experiencia de audio en casa.",
-    "code": "BAR-025",
-    "price": 199.99,
-    "status": true,
-    "stock": 25,
-    "category": "Tecnología",
-    "thumbnails": [
-      "https://http2.mlstatic.com/D_NQ_NP_834379-MLU72389420041_102023-O.webp",
-      "https://101db.com.ar/12542-Productos/barra-de-sonido-tv-soundbar-novik-infinity-8-bluetooth-usb-con-subwoofer-y-c-remoto.jpg"
-    ]
+    "title": "asfasf",
+    "description": "asfasf",
+    "code": "asfasf",
+    "price": "33",
+    "stock": "43",
+    "category": "asfasf",
+    "status": true
   }
 ]

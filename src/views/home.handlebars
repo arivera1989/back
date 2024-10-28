@@ -1,14 +1,19 @@
-<h1>Segunda entrega Backend</h1>
-<h2>Lista de Productos</h2>
+<h1 class="title-pri">Segunda entrega Backend</h1>
+<h2 class="title-sec">Lista de Productos</h2>
 <ul>
     {{#each products}}
     <li>
         <span>{{category}}</span>
         <h2>{{title}}</h2>
         <p>{{description}}</p>
-        <img src="{{thumbnails.[0]}}" alt="{{title}}" />
+        {{#if thumbnails.[0]}}
+            <img src="{{thumbnails.[0]}}" alt="{{title}}" />
+        {{else}}
+            <img src="https://qurystorage.s3.us-east-1.amazonaws.com/fotos/producto-sin-imagen.png" alt="Producto sin imagen" />
+        {{/if}}
         <p>Precio: ${{price}}</p>
-        <span>{{code}}</span>
+        <span>{{code}}</span></br></br>
+        <p>ID: ${{id}}</p>
     </li>
     {{/each}}
 </ul>
