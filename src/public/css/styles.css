@@ -4,6 +4,22 @@
     padding: 5;
 }
 
+a {
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+a:hover {
+    text-decoration: underline;
+}
+
+.container-enlaces {
+    display: flex;
+    align-items: center;
+}
+
 body{
     font-family: Arial, sans-serif;
     line-height: 1;

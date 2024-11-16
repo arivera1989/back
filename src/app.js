@@ -6,6 +6,8 @@ import productRoutes from './routes/productRoutes.js';
 import cartRoutes from './routes/cartRoutes.js';
 import docRoutes from './routes/docRoutes.js';
 import { getProductsPlain, deleteProduct, createProduct } from './controllers/productController.js';
+import mongoose from 'mongoose';
+
 
 const PORT = 8080;
 
@@ -92,3 +94,19 @@ io.on("connection", async (socket) => {
         }
     });
 });
+
+const conectarMD=async()=>{
+    try {
+        await mongoose.connect(
+            "mongodb+srv://backendcoder:mQNE9C3X0rAlgYQV@cluster0.3lruu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+            {
+                dbName: "entregafinal"
+            }
+        )
+        console.log("Conectado a MongoDB Atlas");
+    } catch (error) {
+        console.log(`Error: ${error.message}`)
+    }
+}
+
+conectarMD();

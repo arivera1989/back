@@ -13,7 +13,23 @@
         {{/if}}
         <p>Precio: ${{price}}</p>
         <span>{{code}}</span></br></br>
-        <p>ID: ${{id}}</p>
+        <p>ID: {{_id}}</p>
     </li>
     {{/each}}
 </ul>
+<br>
+<h4>Páginas</h4>
+<div class="container-enlaces">
+    
+    {{#if hasPrevPage}}
+        <a href="/products/?"> Inicio </a>
+        <a href="/products/?page={{prevPage}}"> Anterior </a>
+    {{else}}
+    {{/if}}
+
+    {{#if hasNextPage}}
+        <a href="/products/?page={{nextPage}}"> Siguiente </a>
+        <a href="/products/?page={{totalPages}}"> Final </a>
+    {{else}}
+    {{/if}}
+</div>
